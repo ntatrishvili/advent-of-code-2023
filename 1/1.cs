@@ -18,8 +18,6 @@ namespace MyApp
             { "four", 4 },
             { "six", 6 }
         };
-
-        //create a function that takes a string, searches for all keys of NumberLastDigitPairs dictionary as substrings, if finds any, replaces them with their values, and returns the result
         public static string ReplaceWordsWithNumbers(string input)
         {
             string result = input;
@@ -92,9 +90,7 @@ namespace MyApp
         
         static void Main(string[] args)
         {
-            int a = GetInput();
-            //string a = ReplaceWordsWithNumbers("one hundred and sixty seventeen three");
-            Console.WriteLine(a);
+            Console.WriteLine(GetInput());
         }
     }
 }
